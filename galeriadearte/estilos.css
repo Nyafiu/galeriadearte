@@ -1,0 +1,63 @@
+.contenedor{
+    margin: 0px auto;
+    width: 1500px;
+    background-color: #dfe0dc;
+}
+
+.dropdown-menu{
+    color: aquamarine;
+    background-color: aqua;
+}
+
+.navbar{
+    margin-top: 150px;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.texto_centrado{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: red !important;
+}
+
+.card{
+    background-color: white;
+}
+.centrar{
+    padding-left: 125px;
+}
+
+.card-img-top{
+    padding: 50px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+.col{
+    color: white;
+    padding-top: 50px ;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+#logo{
+    padding-left: 600px;
+    margin-top: 50px;
+}
+
