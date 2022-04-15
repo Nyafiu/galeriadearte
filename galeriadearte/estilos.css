@@ -34,7 +34,7 @@
     background-color: white;
 }
 .centrar{
-    padding-left: 125px;
+    padding-left: 1px;
 }
 
 .card-img-top{
@@ -51,10 +51,13 @@ footer{
     color: white;
     padding-top: 50px ;
 }
-
-a{ 
+a{
+    text-decoration: none;
+}
+.pie{ 
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 #logo{
