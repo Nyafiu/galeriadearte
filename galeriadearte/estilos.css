@@ -1,6 +1,6 @@
 .contenedor{
     margin: 0px auto;
-    width: 1000px;
+    width: 1100px;
     background-color: #dfe0dc;
 }
 
@@ -22,6 +22,10 @@
 
 }
 
+.centra_texto{
+    text-align: center;
+}
+
 .nav-link{
     color: white !important;
 }
@@ -34,7 +38,7 @@
     background-color: white;
 }
 .centrar{
-    padding-left: 1px;
+    padding-left: 75px;
 }
 
 .card-img-top{
@@ -45,12 +49,10 @@ footer{
     background-color: black;
     margin-top: 150px;
     padding-bottom: 10px;
+    padding-top: 50px;
 }
 
-.col{
-    color: white;
-    padding-top: 50px ;
-}
+
 a{
     text-decoration: none;
 }
@@ -64,4 +66,43 @@ a{
     padding-left: 360px;
     margin-top: 30px;
 }
+
+.formato_formulario{  
+    width: 800px; 
+    height: 560px;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: white; 
+    padding-left: 30px; 
+    padding-right: 30px;
+    border: black solid;
+}
+
+.centrardo{
+    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-left: 180px;
+}
+
+.tamaño{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boton{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+#iniciar_sesion{
+    margin-top: 50px;
+}
+
+#cuenta{
+    margin-left: 290px;
+}
+
 
