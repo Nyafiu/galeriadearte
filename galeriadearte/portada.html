@@ -10,7 +10,12 @@
 </head>
 <body class="contenedor">
 
-    <img id="logo" src="img/logo2.png" alt="">
+
+  <div class="container">
+    <div class="col-8 col-sm-12 col-md-12">
+      <img id="logo" src="img/logo2.png" alt="">
+  </div>
+</div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark ">
         <div class="container-fluid">
@@ -63,37 +68,58 @@
         </div>
       </nav>
 
-      <h1 class="texto_centrado">Destacados</h1>
+      <div class="container">
+        <div class="col-5 col-sm-12 col-md-12">
+         <h1 class="texto_centrado">Destacados</h1>    
+      </div>
+    </div>
+
+      
 
 
     <!-- Carrusel de imagenes con flechas falta agregar las imagenes y los links -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="producto.html"><img src="img/perro_azul.jpg" class="d-block w-100"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="producto.html"><img src="img/torre.jpg" class="d-block w-100"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="producto.html"><img src="img/pinceles.jpg" class="d-block w-100"></a>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="container">
+        <div class="row">
+          <div class="col-5 col-sm-12 col-md-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="container">
+                  <a href="producto.html"><img src="img/perro_azul.jpg" class="d-block w-100"s></a>
+                </div>  
+                </div>
+                <div class="carousel-item">
+                  <a href="producto.html"><img src="img/torre.jpg" class="d-block w-100"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="producto.html"><img src="img/pinceles.jpg" class="d-block w-100"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
       </div>
+    </div>
+  </div>
 
-      <h1 class="texto_centrado">Novedades</h1>
+  
+    
+  <div class="container">
+    <div class="col-5 col-sm-12 col-md-12">
+     <h1 class="texto_centrado">Novedades</h1>    
+    </div>
+  </div>
+
 
       <div class="container, centrar">
         <div class="row align-items-center">
-          <div class="col">
+          <div class="col-xs-12 col-sm-3 col-md-4">
           <a href="producto.html">
             <div class="card" style="width: 17rem;">
               <img src="img/perro-andaluz.jpg" class="card-img-top">
@@ -104,7 +130,7 @@
             </div>
          </a>
           </div>
-          <div class="col">
+          <div class="col-xs-12 col-sm-3 col-md-4">
             <a href="producto.html">
               <div class="card" style="width: 17rem;">
                 <img src="img/gonzalo 2.jpg" class="card-img-top">
@@ -115,7 +141,7 @@
               </div>
            </a>
           </div>
-          <div class="col">
+          <div class="col-xs-12 col-sm-3 col-md-4">
             <a href="producto.html">
               <div class="card" style="width: 17rem;">
                 <img src="img/mujer-verde.jpg" class="card-img-top">
@@ -129,14 +155,19 @@
         </div>
       </div>
 
-      <h1 class="texto_centrado">Artistas destacados</h1>
+      <div class="container">
+        <div class="col-5 col-sm-12 col-md-12">
+         <h1 class="texto_centrado">Artistas destacados </h1>    
+      </div>
+    </div>
+
 
     <!-- card para artistas falta agregar las imagenes y los links -->  
   
     <div>
       <div class="container, centrar">
         <div class="row align-items-center">
-          <div class="col">
+          <div class="col-xs-12 col-sm-3 col-md-4">
           <a href="artista4.html">
             <div class="card" style="width: 17rem;">
               <img src="img/lorena.png" class="card-img-top">
@@ -146,7 +177,7 @@
             </div>
          </a>
           </div>
-          <div class="col">
+          <div class="col-xs-12 col-sm-3 col-md-4">
             <a href="artista7.html">
               <div class="card" style="width: 17rem;">
                 <img src="img/chomba.jpg" class="card-img-top">
@@ -156,7 +187,7 @@
               </div>
            </a>
           </div>
-          <div class="col">
+          <div class="col-xs-12 col-sm-3 col-md-4">
             <a href="artista1.html">
               <div class="card" style="width: 18rem;">
                 <img src="img/robertomatta.jpg" class="card-img-top">
@@ -173,17 +204,17 @@
       <footer>
         <div class="container, pie">
           <div class="row align-items-center">
-            <div class="col">
+            <div class="col-xs-12 col-sm-2 col-md-4">
               <a href="#">Términos y condiciones
               <img class="logofooter" src="img/condiciones.png" width="45" height="45">
             </a>
             </div>
-            <div class="col">
+            <div class="col-xs-12 col-sm-2 col-md-4">
               <a href="#">Tiendas
               <img class="logofooter" src="img/mapa.png" width="45" height="45">
             </a>
             </div>
-            <div class="col">
+            <div class="col-xs-12 col-sm-12 col-md-4">
               <a href="#">info@galeria.cl
               <img class="logofooter" src="img/correo.png" width="45" height="45">
             </a>
